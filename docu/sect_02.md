@@ -50,7 +50,16 @@
 docker container run -t -p 9000:8080 gihyodocker/echo:latest
 ```
 
+- 간단한 애플리케이션과 도커 이미지 만들기
+  - 예제로 Go 언어로 만든 간단한 웹 서버를 도커 컨테이너에서 실행
+  - main.go 라는 파일에 다음 코드를 작성
+  ``` go
+  package main
 
+  improt (
+    "fnt"
+  )
+  ```
 
 
 <br/>
