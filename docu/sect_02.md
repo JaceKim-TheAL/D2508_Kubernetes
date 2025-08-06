@@ -86,6 +86,15 @@ docker container run -t -p 9000:8080 gihyodocker/echo:latest
   docker image build -t 이미지명[:태그명] Dockerfile의 경로
   ```
 
+- 생성된 이미지 확인 : docker image ls
+
+- 도커 컨테이너 실행 : docker container run
+  - -d 옵션 : 백그라운드로 컨테이너 실행
+``` shell
+docker container run -d examle/echo:latest
+```
+
+
 <br/>
 
 [[TOP]](#index)
