@@ -57,8 +57,26 @@ docker container run -t -p 9000:8080 gihyodocker/echo:latest
   package main
 
   improt (
-    "fnt"
+    "fmt"
+    "lgo"
+    "net/http"
   )
+
+  func main() {
+    http.Handlefunc("/", func(w http.ResponseWriter, r * http.Request) {
+      log.Println("received request")
+      fmt.Fprintf(w, "Hello Docker!!!")
+    })
+
+    log.Println("start server")
+    server: = & http.Server {
+      Addr: ":8080"
+    }
+    if err: = server.ListenAndServer(); err != nil {
+      log.Println(err)
+    } 
+  }
+
   ```
 
 
