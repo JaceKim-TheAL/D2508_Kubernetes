@@ -1,8 +1,7 @@
 [![My Skills](https://skillicons.dev/icons?i=docker,kubernetes&theme=dark)](https://skillicons.dev)
 
 # INDEX
- 
----
+
 01장: 도커의 기초
   <li> 01. 도커란 무엇인가
   <li> 02. 도커를 사용하는 의의
