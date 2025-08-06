@@ -7,7 +7,7 @@
 
 <table>
   <tr>
-    <td><b href="sect_01.md">1.DK기초 </b></td>
+    <td><a href="sect_01.md">1.DK기초 </a></td>
     <td><a href="sect_02.md">2.DK배포 </a></td>
     <td><a href="sect_03.md">3.CT입문 </a></td>
     <td><a href="sect_04.md">4.KB입문 </a></td>
@@ -28,7 +28,7 @@
 - [03. 로컬 도커 환경 구축하기]
 
 ---
-### 도커란 무엇인가
+### 
 
 <br/>
 
