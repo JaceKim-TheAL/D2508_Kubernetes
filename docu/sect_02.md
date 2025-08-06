@@ -82,9 +82,9 @@ docker container run -t -p 9000:8080 gihyodocker/echo:latest
 - 도커 이미지 빌드하기 
   - -t 옵션으로 이미지명을 지정, 태그명도 지정할 수 잇으며, 생략시에는 latest 태그가 붙는다
   - -t 옵션과 이미지명은 반드시 지정해야 한다고 생각하는 편이 좋다. 
-``` shell
-docker image build -t 이미지명[:태그명] Dockerfile의 경로
-```
+  ``` shell
+  docker image build -t 이미지명[:태그명] Dockerfile의 경로
+  ```
 
 <br/>
 
