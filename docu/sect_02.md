@@ -108,7 +108,32 @@ docker container ls
 
 ---
 ### 도커 이미지 다루기
+- 도커 이미지 : 도커 턴테이너를 만들기 위한 템플릿
 
+```shell
+PS C:\GitHub\practice\docker> docker image --help
+Usage:  docker image COMMAND
+
+Manage images
+
+Commands:
+  build       Build an image from a Dockerfile
+  history     Show the history of an image
+  import      Import the contents from a tarball to create a filesystem image
+  inspect     Display detailed information on one or more images
+  load        Load an image from a tar archive or STDIN
+  ls          List images
+  prune       Remove unused images
+  pull        Download an image from a registry
+  push        Upload an image to a registry
+  rm          Remove one or more images
+  save        Save one or more images to a tar archive (streamed to STDOUT by default)
+  tag         Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE
+
+Run 'docker image COMMAND --help' for more information on a command.
+PS C:\GitHub\practice\docker>
+
+```
 
 <br/>
 
