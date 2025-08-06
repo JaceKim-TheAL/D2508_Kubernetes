@@ -1,3 +1,5 @@
+[![My Skills](https://skillicons.dev/icons?i=docker,kubernetes&theme=light)](https://skillicons.dev)
+
 # 도커/쿠버네티스를 활용한 컨테이너 개발
 
 - 도커와 쿠버네티스에 대한 기초 실력을 키우고, 컨테이너에 친화적인 애플리케이션을 개발하기 위한 포인트, 더 나아가 실제 운영 환경에 적합한 기본적인 기법 및 노하우를 전달
