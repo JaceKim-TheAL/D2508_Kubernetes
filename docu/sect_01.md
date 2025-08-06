@@ -65,9 +65,19 @@
 - macOS용 도커 설치
 - 윈도우용/macOS용 도커 기본 설정
   - 도커 자동 실행
-
+- 도커 툴박스(Docker Toolbox)
+  - 도커 툴박스는 VirtualBox로 게스트 운영체에를 구축한 다음 그위에 도커를 실행하므로 순수하에 윈도우용/macOS용 도커를 실행하는 것보다는 리소스 효율면에서 불리
+  - 그러나 호스트 운영체제의 리소스를 공유하지 않는 만큼 환경 구축에서 일어날 수 있는 말썽이 적다.
+  - 도크 툴박스는 VirtualBox를 사용하므로 윈도우용 도커를 설치할 때와 마찬가지로 물리 머신의 BIOS 설정에서 가상화 기능을 활성화해야 한다.
+  - 또한 VirtualBox와 Hyper-V 기능을 동시에 사용할 수 없으므로 Hyper-V 기능이 활성 상태라면 `제어판` - `프로그램` - `Window 기능 켜기/끄기`에서 다음과 같이 **Hyper-V를 비활성화** 한다. 설정이 반영되려면 윈도우 재시작해야 한다. 
+  - 설치에서 `Select Additional Tasks`에서 `Install VirtualBox with NDIS5 driver[default NDIS6]` 항목에 체크해야 한다. NDIS6은 Host Only Network와 관련된 버그가 있으므로 이전 버전인 NDIS5를 선택할 수 있다.
+  - 설치가 끝나면 Docker Quickstart Termianl 아이콘을 클릭해 도커 환경을 실행한다.
+  - 곧 터미널이 실행되는데, 도크 툴박스를 처음 실행했다면 먼저 VirtualBox에서 도커를 실행할 가상환경을 만들어야 하므로 조금(몇분 정도) 시간이 걸린다.
+  - 터미널은 호스트 운영체계에서 동작하지만, docker 명령은 VirtualBox에서 동작하는 게스트 운영체제에 구축된 도커환경과 연결해 있다. 
+  - 그러므로 Docker Quickstart Terminal에서 마치 도커가 로컬에 설치된 것처럼 사용할 수 있다. 
+  - 그리고 윈도우용 Docker Quickstart Terminal을 사용되기 때문에 도커 툴박스를 사용하면 macOS와 거의 동일한 명령을 사용할 수 있다. 
+   
 
 [[TOP]](#index)
 
 ---
-
