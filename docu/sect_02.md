@@ -87,6 +87,9 @@ docker container run -t -p 9000:8080 gihyodocker/echo:latest
   ```
 
 - 생성된 이미지 확인 : docker image ls
+``` shell
+docker image ls
+```
 
 - 도커 컨테이너 실행 : docker container run
   - -d 옵션 : 백그라운드로 컨테이너 실행
@@ -94,9 +97,50 @@ docker container run -t -p 9000:8080 gihyodocker/echo:latest
 docker container run -d examle/echo:latest
 ```
 
+- 도커 컨테이너 목록보기 : docker container ls
+``` shell
+docker container ls
+```
 
 <br/>
 
 [[TOP]](#index)
 
 ---
+### 도커 이미지 다루기
+
+
+<br/>
+
+[[TOP]](#index)
+
+---
+### 도커 컨테이너 다루기
+
+<br/>
+
+[[TOP]](#index)
+
+---
+### 운영과 관리를 위한 명령
+
+<br/>
+
+[[TOP]](#index)
+
+---
+### 도커 컴포즈로 여러 컨테이너 실행하기
+
+<br/>
+
+[[TOP]](#index)
+
+---
+### 컴포즈로 여러 컨테이너 실행하기
+
+<br/>
+
+[[TOP]](#index)
+
+---
+
