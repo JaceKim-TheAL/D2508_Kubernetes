@@ -39,6 +39,20 @@
 | 도커 컨테이너 | 도커 이미지를 기반으로 생성되며, 파일 시스템과 애플리케이션이 구체화돼 실행되는 상태 |
 
 ![도커이미지](./images/s02_docker_image.png)
+
+ - 도커 이미지 내려받기 : docker image pull 
+ ``` shell
+ docker image pull gihyodocker/echo:latest
+ ```
+
+- 도커 이미지 실행하기 : docker container run
+``` shell
+docker container run -t -p 9000:8080 gihyodocker/echo:latest
+```
+
+
+
+
 <br/>
 
 [[TOP]](#index)
